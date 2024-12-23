@@ -2,12 +2,10 @@ using System;
 
 public struct Employee
 {
-    // Переменные
     private string name;
     private DateTime hireDate;
     private string position;
 
-    // Конструктор
     public Employee(string name, DateTime hireDate, string position)
     {
         this.name = name;
@@ -15,37 +13,31 @@ public struct Employee
         this.position = position;
     }
 
-    // Метод для получения имени
     public string GetName()
     {
         return name;
     }
 
-    // Метод для установки имени
     public void SetName(string name)
     {
         this.name = name;
     }
 
-    // Метод для получения даты приема на работу
     public DateTime GetHireDate()
     {
         return hireDate;
     }
 
-    // Метод для установки даты приема на работу
     public void SetHireDate(DateTime hireDate)
     {
         this.hireDate = hireDate;
     }
 
-    // Метод для получения должности
     public string GetPosition()
     {
         return position;
     }
 
-    // Метод для установки должности
     public void SetPosition(string position)
     {
         this.position = position;
